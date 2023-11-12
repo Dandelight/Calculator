@@ -8,7 +8,11 @@ void test_add() {}
 
 void test_subtract() {}
 
-void test_multiply() {}
+void test_multiply() {
+    assert(multiply(1, 2) == 2);
+    assert(multiply(-3, -4) == 12);
+    assert(multiply(1, 0) == 0);
+}
 
 void test_divide() {}
 
