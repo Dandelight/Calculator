@@ -1,4 +1,4 @@
-#include <assert.h>
+    #include <assert.h>
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,7 +10,11 @@ void test_subtract() {}
 
 void test_multiply() {}
 
-void test_divide() {}
+void test_divide() {
+    assert(divide(6, 3) == 2);
+    assert(divide(12, -4) == -3);
+    assert(divide(0, 1) == 0);
+}
 
 int string_equals(const char *p, const char *q) {
     return strcmp(p, q) == 0;
