@@ -10,7 +10,11 @@ void test_add() {
     assert(add(1, 0) == 0);
 }
 
-void test_subtract() {}
+void test_subtract() {
+    assert(add(1, 2) == 3);
+    assert(add(-3, -4) == -7);
+    assert(add(1, 0) == 0);
+}
 
 void test_multiply() {}
 
