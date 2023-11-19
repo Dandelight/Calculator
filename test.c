@@ -7,13 +7,13 @@
 void test_add() {
     assert(add(1, 2) == 3);
     assert(add(-3, -4) == -7);
-    assert(add(1, 0) == 0);
+    assert(add(1, 0) == 1);
 }
 
 void test_subtract() {
-    assert(add(1, 2) == 3);
-    assert(add(-3, -4) == -7);
-    assert(add(1, 0) == 0);
+    assert(subtract(1, 2) == -1);
+    assert(subtract(-3, 4) == -7);
+    assert(subtract(1, 0) == 1);
 }
 
 void test_multiply() {}
